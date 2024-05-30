@@ -1,0 +1,47 @@
+body {
+  background-color: #323436;
+  margin: 0;
+}
+
+#header-div {
+  background-color: #ffffff;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-image: url(banner.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#logoImage {
+  height: 100px;
+  width: 100px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgrey;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkgrey;
+}
+
+.author {
+  position: fixed;
+  top: 47vw;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  font-size: 0.8vw;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
